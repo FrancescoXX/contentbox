@@ -28,7 +28,7 @@ body:
       label: "Record"
       
       options:
-         - label: I have checked the existing [issues](https://github.com/FrancescoXX/contentbox/issues)
+        - label: I have checked the existing [issues](https://github.com/FrancescoXX/contentbox/issues)
           required: true
 
         - label: I want to work on this issue
