@@ -21,7 +21,7 @@ you can add content from different sources, and you can search for them easily (
 
 # Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+ContentBox is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
 
