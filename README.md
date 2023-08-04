@@ -19,6 +19,10 @@ you can add content from different sources, and you can search for them easily (
 - JavaScript
 - Algolia (search)
 
+# Videos
+
+#1 https://youtube.com/live/BxYJnON2r4o
+
 # Website
 
 ContentBox is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
