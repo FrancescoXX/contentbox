@@ -1,0 +1,29 @@
+name: 🔧 Refactor Code 
+description: Use this label for code refactoring tasks.
+title: "[Refactor] <write what you want to add>"
+labels: ["enhancement"]
+body:
+  - type: input
+    id: refactor_input
+    attributes:
+      label: File Name
+      description: "Enter the file that you want to refactor in the codebase."
+      placeholder: "For example - app/projects/page.tsx"
+    validations:
+      required: true
+  - type: textarea
+    id: refactor_description
+    attributes:
+      label: "Reason for Refactoring the Code"
+      description: "Describe what improvements can be made in the codebase without introducing breaking changes."
+    validations:
+      required: true
+  - type: checkboxes
+    id: refactor_terms
+    attributes:
+      label: "Record"
+      options:
+         - label: I have checked the existing [issues](https://github.com/FrancescoXX/contentbox/issues)
+          required: true
+
+        - label: I want to work on this issue

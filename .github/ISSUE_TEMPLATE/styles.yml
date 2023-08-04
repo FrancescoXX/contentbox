@@ -1,0 +1,35 @@
+name: 👯‍♂️ Style Changing Request
+description: Suggest a style designs
+title: '[style]: '
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this template!
+  - type: textarea
+    id: style-idea
+    attributes:
+      label: What's the style idea?
+      placeholder: Add descriptions
+     
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Add screenshots
+      
+      placeholder: Add screenshots
+      
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "Record"
+      
+      options:
+         - label: I have checked the existing [issues](https://github.com/FrancescoXX/contentbox/issues)
+          required: true
+
+        - label: I want to work on this issue
+       
