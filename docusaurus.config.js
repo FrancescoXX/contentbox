@@ -93,19 +93,26 @@ const config = {
       },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Home',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/favicon.ico',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Podcast',
+          // },
+          {to: '/blog', label: '🎙️ Podcast', position: 'left'},
+          {to: '/blog', label: '🏠 Guests', position: 'left'},
+          {to: '/blog', label: '🥑DevRel', position: 'left'},
+          {to: '/blog', label: '🌐Web dev', position: 'left'},
+          {to: '/blog', label: '🏆Special events', position: 'left'},
+          {to: '/blog', label: '🌏Conferences', position: 'left'},
+          {to: '/blog', label: '⛓️Blockchain', position: 'left'},
+          {to: '/blog', label: '🐳DevOps', position: 'left'},
           {
             href: 'https://github.com/FrancescoXX/contentbox',
             label: 'GitHub',

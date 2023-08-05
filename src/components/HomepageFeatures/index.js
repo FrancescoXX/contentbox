@@ -4,61 +4,96 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    title: '🎙️PodCast',
+    icon: 'img/icons/onoff.svg',
+    items: [
+      // {url: "/docs/roadmap/introduction", text: "Roadmap"},
+    ]
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    title: '🤝Guest events',
+    icon: 'img/icons/onoff.svg',
+    items: [
+      // {url: "/docs/roadmap/introduction", text: "Roadmap"},
+    ]
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    title: '🥑DevRel',
+    icon: 'img/icons/onoff.svg',
+    items: [
+      // {url: "/docs/roadmap/introduction", text: "Roadmap"},
+    ]
   },
+  {
+    title: '🌐Web Dev',
+    icon: 'img/icons/onoff.svg',
+    items: [
+      // {url: "/docs/roadmap/introduction", text: "Roadmap"},
+    ]
+  },
+  {
+    title: '🏆Special Events',
+    icon: 'img/icons/onoff.svg',
+    items: [
+      // {url: "/docs/roadmap/introduction", text: "Roadmap"},
+    ]
+  },
+  {
+    title: '🌏Conferences',
+    icon: 'img/icons/onoff.svg',
+    items: [
+      // {url: "/docs/roadmap/introduction", text: "Roadmap"},
+    ]
+  },
+  {
+    title: '⛓️Blockchain',
+    icon: 'img/icons/onoff.svg',
+    items: [
+      // {url: "/docs/roadmap/introduction", text: "Roadmap"},
+    ]
+  },
+  {
+    title: '🐳DevOps',
+    icon: 'img/icons/onoff.svg',
+    items: [
+      // {url: "/docs/roadmap/introduction", text: "Roadmap"},
+    ]
+  }
 ];
 
-function Feature({Svg, title, description}) {
+function FeatureItem({url, text}){
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
-      </div>
-    </div>
+    <li><a className={styles.listContainerLink} href={url}>{text}</a></li>
   );
 }
+
+function Feature({title, icon, items }) {
+  return (
+    <article className={clsx('col col--4')}>
+      <div className={styles.homecard}>
+        {/* <img src={icon} className={styles.homeIcon}></img> */}
+        <h2>{title}</h2>
+        <div className={styles.listContainer}>
+        <ul>
+          {items.map((props, idx) => (
+            <FeatureItem key={idx} {...props} />
+          ))}
+        </ul>
+        </div>
+      </div>
+    </article>
+  );
+}
+
 
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
-      <div className="container">
-        <div className="row">
+        <ul className={styles.grid3col}>
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
-        </div>
-      </div>
+        </ul>
     </section>
   );
 }
