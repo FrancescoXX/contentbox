@@ -99,12 +99,6 @@ const config = {
           src: 'img/favicon.ico',
         },
         items: [
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Podcast',
-          // },
           {
             type: "doc",
             docId: "podcast/podcast",
@@ -117,13 +111,42 @@ const config = {
             position: "left",
             label: "🏠 As a Guest",
           },
-          // {to: '/blog', label: '🎙️ Podcast', position: 'left'},
-          {to: '/blog', label: '🥑DevRel', position: 'left'},
-          {to: '/blog', label: '🌐Web dev', position: 'left'},
-          {to: '/blog', label: '🏆Special events', position: 'left'},
-          {to: '/blog', label: '🌏Conferences', position: 'left'},
-          {to: '/blog', label: '⛓️Blockchain', position: 'left'},
-          {to: '/blog', label: '🐳DevOps', position: 'left'},
+          {
+            type: "doc",
+            docId: "devrel/devrel",
+            position: "left",
+            label: "🥑DevRel",
+          },
+          {
+            type: "doc",
+            docId: "webdev/webdev",
+            position: "left",
+            label: "🌐Web dev",
+          },
+          {
+            type: "doc",
+            docId: "specialevents/specialevents",
+            position: "left",
+            label: "🏆Special events",
+          },
+          {
+            type: "doc",
+            docId: "conferences/conferences",
+            position: "left",
+            label: "🌏Conferences",
+          },
+          {
+            type: "doc",
+            docId: "blockchain/blockchain",
+            position: "left",
+            label: "⛓️Blockchain",
+          },
+          {
+            type: "doc",
+            docId: "devops/devops",
+            position: "left",
+            label: "🐳DevOps",
+          },
           {
             href: 'https://github.com/FrancescoXX/contentbox',
             label: 'GitHub',
