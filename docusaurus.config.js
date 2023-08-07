@@ -64,12 +64,12 @@ const config = {
       // Replace with your project's social card
       algolia: {
         // The application ID provided by Algolia
-        appId: 'YOUR_APP_ID',
+        appId: 'WAON8VFPXU',
   
         // Public API key: it is safe to commit it
-        apiKey: 'YOUR_SEARCH_API_KEY',
+        apiKey: 'ac9987007578564efa7042f36ebb012e',
   
-        indexName: 'YOUR_INDEX_NAME',
+        indexName: 'contentbox',
   
         // Optional: see doc section below
         contextualSearch: true,
