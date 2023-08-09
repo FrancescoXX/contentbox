@@ -23,6 +23,21 @@ you can add content from different sources, and you can search for them easily (
 
 #1 https://youtube.com/live/BxYJnON2r4o
 
+
+# How to use it
+
+```
+git clone https://github.com/FrancescoXX/contentbox.git
+```
+
+```
+npm i
+```
+
+```
+npm start
+```
+
 # Website
 
 ContentBox is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
