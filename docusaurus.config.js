@@ -201,7 +201,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Francesco Ciulla`,
       },
       announcementBar: {
         id: "Join us",
