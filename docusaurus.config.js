@@ -203,6 +203,14 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc.`,
       },
+      announcementBar: {
+        id: "Join us",
+        content:
+          '<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@francescociulla">Check the YouTube Channel </a>',
+        backgroundColor: "#fafbfc",
+        textColor: "#091E42",
+        isCloseable: true,
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
