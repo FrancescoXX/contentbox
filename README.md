@@ -22,6 +22,7 @@ you can add content from different sources, and you can search for them easily (
 # Videos
 
 #1 https://youtube.com/live/BxYJnON2r4o
+#2 https://youtube.com/live/PH2qkpIle50
 
 
 # How to use it
