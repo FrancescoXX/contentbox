@@ -6,6 +6,7 @@ const FeatureList = [
   {
     title: '🎙️PodCast',
     icon: 'img/icons/onoff.svg',
+    url: 'https://contentbox.vercel.app/docs/podcast/',
     items: [
       // {url: "/docs/roadmap/introduction", text: "Roadmap"},
     ]
@@ -13,6 +14,7 @@ const FeatureList = [
   {
     title: '🤝Guest events',
     icon: 'img/icons/onoff.svg',
+    url: 'https://contentbox.vercel.app/docs/asaguest/',
     items: [
       // {url: "/docs/roadmap/introduction", text: "Roadmap"},
     ]
@@ -20,6 +22,7 @@ const FeatureList = [
   {
     title: '🥑DevRel',
     icon: 'img/icons/onoff.svg',
+    url: 'https://contentbox.vercel.app/docs/devrel/',
     items: [
       // {url: "/docs/roadmap/introduction", text: "Roadmap"},
     ]
@@ -27,6 +30,7 @@ const FeatureList = [
   {
     title: '🌐Web Dev',
     icon: 'img/icons/onoff.svg',
+    url: 'https://contentbox.vercel.app/docs/webdev/',
     items: [
       // {url: "/docs/roadmap/introduction", text: "Roadmap"},
     ]
@@ -34,6 +38,7 @@ const FeatureList = [
   {
     title: '🏆Special Events',
     icon: 'img/icons/onoff.svg',
+    url: 'https://contentbox.vercel.app/docs/specialevents/',
     items: [
       // {url: "/docs/roadmap/introduction", text: "Roadmap"},
     ]
@@ -41,6 +46,7 @@ const FeatureList = [
   {
     title: '🌏Conferences',
     icon: 'img/icons/onoff.svg',
+    url: 'https://contentbox.vercel.app/docs/conferences/',
     items: [
       // {url: "/docs/roadmap/introduction", text: "Roadmap"},
     ]
@@ -48,6 +54,7 @@ const FeatureList = [
   {
     title: '⛓️Blockchain',
     icon: 'img/icons/onoff.svg',
+    url: 'https://contentbox.vercel.app/docs/blockchain/',
     items: [
       // {url: "/docs/roadmap/introduction", text: "Roadmap"},
     ]
@@ -55,6 +62,7 @@ const FeatureList = [
   {
     title: '🐳DevOps',
     icon: 'img/icons/onoff.svg',
+    url: 'https://contentbox.vercel.app/docs/devops/',
     items: [
       // {url: "/docs/roadmap/introduction", text: "Roadmap"},
     ]
@@ -67,20 +75,22 @@ function FeatureItem({url, text}){
   );
 }
 
-function Feature({title, icon, items }) {
+function Feature({title, icon, url, items }) {
   return (
     <article className={clsx('col col--4')}>
-      <div className={styles.homecard}>
-        {/* <img src={icon} className={styles.homeIcon}></img> */}
-        <h2>{title}</h2>
-        <div className={styles.listContainer}>
-        <ul>
-          {items.map((props, idx) => (
-            <FeatureItem key={idx} {...props} />
-          ))}
-        </ul>
+      <a href={url} className={styles.featureLink}> {/* Add this line */}
+        <div className={styles.homecard}>
+          {/* <img src={icon} className={styles.homeIcon}></img> */}
+          <h2>{title}</h2>
+          <div className={styles.listContainer}>
+            <ul>
+              {items.map((props, idx) => (
+                <FeatureItem key={idx} {...props} />
+              ))}
+            </ul>
+          </div>
         </div>
-      </div>
+      </a> {/* Add this line */}
     </article>
   );
 }
