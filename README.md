@@ -15,10 +15,15 @@ You can add content from different sources and search for them easily (search wi
 ## Features
 
 ✅ Deployment with Vercel
+
 ✅ Google Analytics
+
 ✅ Algolia Integration for Search
+
 ✅ Dark/light mode
+
 ✅ Navbar
+
 ✅ Announcement bar
 
 ## Tech Stack
