@@ -10,6 +10,6 @@ Where: Krakow, Poland
 
 Role: Speaker
 
-Slides: <link>
+Slides: link tbd
 
 Video:
