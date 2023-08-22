@@ -16,7 +16,7 @@ body:
       label: Add screenshots
       placeholder: Add screenshots
     validations:
-      required: true
+      required: false
   - type: checkboxes
     id: terms
     attributes:
