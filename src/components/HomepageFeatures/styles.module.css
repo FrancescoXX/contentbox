@@ -29,7 +29,7 @@
   .grid3col{
     display: grid;
     grid-template-columns: repeat(2,minmax(0,1fr));
-    gap:56px;
+    gap:0px;
     margin: 0 auto;
   }
 }
@@ -37,9 +37,13 @@
   .grid3col{
     display: grid;
     grid-template-columns: repeat(1,minmax(0,1fr));
-    gap:56px 0px;
+    gap:0px 0px;
     margin: 0 auto;
   }
+}
+
+.listContainerLink {
+  font-size: calc(14px + 0.4vw);
 }
 
 .listContainer{
@@ -90,6 +94,7 @@ html[data-theme='light'] .homecard{
   min-height: 2.4rem;
   font-size: 1.8rem;
   line-height: 1.4;
+  text-align: center;
 }
 
 html[data-theme='light'] .homecard a{
