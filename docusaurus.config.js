@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ContentBox',
+  title: 'Content Box',
   tagline: 'The organized solution for Content Creators.',
   favicon: 'img/favicon.ico',
 
@@ -191,8 +191,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Linkfree',
+                to: 'https://linkfree.io/FrancescoXX',
               },
               {
                 label: 'GitHub',

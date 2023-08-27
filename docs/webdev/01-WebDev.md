@@ -4,4 +4,4 @@ sidebar_position: 1
 
 # #1 Web Development
 
-episode 1
+This series is about building projects that involve web development.

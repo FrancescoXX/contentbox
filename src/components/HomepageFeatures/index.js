@@ -78,7 +78,7 @@ function FeatureItem({url, text}){
 function Feature({title, icon, url, items }) {
   return (
     <article className={clsx('col col--4')}>
-      <a href={url} className={styles.featureLink}> {/* Add this line */}
+      <a href={url} className={styles.featureLink}> 
         <div className={styles.homecard}>
           {/* <img src={icon} className={styles.homeIcon}></img> */}
           <h2>{title}</h2>
@@ -90,7 +90,7 @@ function Feature({title, icon, url, items }) {
             </ul>
           </div>
         </div>
-      </a> {/* Add this line */}
+      </a>
     </article>
   );
 }
