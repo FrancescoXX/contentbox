@@ -10,7 +10,7 @@ Intro...
 
 <div className="row">
 
-<div className="col" style={{position: 'relative', paddingBottom: '30%', height: 0}}>
+<div className="col" style={{position: 'relative', paddingBottom: '30%', margin: 4vh;}}>
     <iframe 
         style={{position: 'absolute', top: '0', left: '0', width: '100%', height: '100%'}}
         src="https://www.youtube.com/embed/dzguqZkouGY" 
@@ -21,7 +21,7 @@ Intro...
     </iframe>
 </div>
 
-<div className="col" style={{position: 'relative', paddingBottom: '30%', height: 0}}>
+<div className="col" style={{position: 'relative', paddingBottom: '30%', margin:4vh;}}>
     <iframe 
         style={{position: 'absolute', top: '0', left: '0', width: '100%', height: '100%'}}
         src="https://www.youtube.com/embed/dOwWn5GvQF0" 
@@ -32,7 +32,7 @@ Intro...
     </iframe>
 </div>
 
-<div className="col" style={{position: 'relative', paddingBottom: '30%', height: 0}}>
+<div className="col" style={{position: 'relative', paddingBottom: '30%', margin:4vh;}}>
     <iframe 
         style={{position: 'absolute', top: '0', left: '0', width: '100%', height: '100%'}}
         src="https://www.youtube.com/embed/dzguqZkouGY" 
@@ -43,7 +43,7 @@ Intro...
     </iframe>
 </div>
 
-<div className="col" style={{position: 'relative', paddingBottom: '30%', height: 0}}>
+<div className="col" style={{position: 'relative', paddingBottom: '30%', margin:4vh;}}>
     <iframe 
         style={{position: 'absolute', top: '0', left: '0', width: '100%', height: '100%'}}
         src="https://www.youtube.com/embed/dzguqZkouGY" 
