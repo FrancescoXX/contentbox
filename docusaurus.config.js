@@ -191,7 +191,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Biodrop',
+                label: 'BioDrop',
                 to: 'https://www.biodrop.io/FrancescoXX',
               },
               {
