@@ -191,8 +191,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Linkfree',
-                to: 'https://linkfree.io/FrancescoXX',
+                label: 'Biodrop',
+                to: 'https://www.biodrop.io/FrancescoXX',
               },
               {
                 label: 'GitHub',
